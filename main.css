@@ -1,0 +1,57 @@
+body{ background-color: tan;}
+
+h1{border: 5px solid beige;
+text-align: center;
+color: beige;}
+h2 {color: beige;
+text-align: center;
+}
+h3 {text-align: center;
+    color: white;}
+img { width: 400px;
+      height: 300px;
+  
+} 
+li { color: beige;}
+
+.flex-container {
+  display: flex;
+	flex-flow: row wrap;
+	justify-content:space-between;
+align-items: center; 
+padding: 100px; }
+.imageContainer {
+    float: left;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+    padding: 10px 100px 10px 100px;
+  color: beige;
+  border: solid beige;
+}
+.olympic { width: 100%;
+ 
+    
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.floatcenter {
+  border-radius: 50%
+}
+.howhigh {
+  border-radius: 50%;
+ 
+    
+}
+.departed {border-radius: 50%; }
+.nocountry {border-radius: 50%; }
+.high {border-radius: 50%;}
